@@ -1,0 +1,85 @@
+/* set style of paragraphs with at least 2 rules */
+body {
+    background-color: lavenderblush;
+}
+
+p {
+    font-size: 18px;
+    font-family: Serif, Georgia;
+    color: darkviolet;
+    text-align: center;
+}
+
+/* set style of all level 2 headers with at least 2 rules */
+
+h2 {
+    font-family: fantasy, Papyrus;
+    color: mediumvioletred;
+    text-align: center;
+}
+
+/* style all tables to include a border with border color */
+
+table {
+    border-style: dotted;
+    border-color: mediumvioletred;
+    border-collapse: separate;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* style third paragraph using the ID */
+
+p#future {
+    color: mediumvioletred;
+    text-align: center;
+}
+
+/* style based on class attribute */
+
+p.ice-cream {
+    color: darkcyan;
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+}
+
+/* set size of logo */
+
+img.logo {
+    width: 267px;
+    height: 72px;
+    margin: 0 auto;
+    display: block;
+}
+
+/* style level 1 header */
+
+h1 {
+    font-family: fantasy, Papyrus;
+    text-align: center;
+    font-size: 44px;
+    color: mediumvioletred;
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 2px;
+}
+
+/* style text in table */
+
+th, td {
+    font-family: fantasy, Papyrus;
+    color: darkviolet;
+    text-align: center;
+}
+
+/* style the lists */
+
+ul, ol {
+    font-family: fantasy, Papyrus;
+    color: mediumvioletred;
+    text-align: center;
+    list-style-position: inside;
+    padding-left: 0;
+}
+
